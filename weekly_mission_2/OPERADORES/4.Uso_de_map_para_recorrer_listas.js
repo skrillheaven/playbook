@@ -2,7 +2,7 @@
 /*Arrow function and explicit return
 const modifiedArray = arr.map((element,index) => element);
 */
-
+//MAP DEVUELVE UNA MATRIZ Y FOR EACH NO DEVUELVE NADA 
 const numbers4 = [1, 2, 3, 4, 5]
 const numberSquare = numbers4.map(function(num) { return num * num })
     // También puedes escribir la función como fat arrow
