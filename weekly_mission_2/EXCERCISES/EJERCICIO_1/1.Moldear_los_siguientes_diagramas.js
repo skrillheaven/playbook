@@ -38,9 +38,19 @@ const issue = {
 
 }
 
+const PullRequest = {
+    title: "Actualizando metodo getGeneralInfo",
+    branchName: "Master",
+    dateCreated: new Date(),
+    status: "Accept",
+    repositoryNameAssociated: issue.repositoryNameAssociated
+}
+
 console.log("Nombre del repo:" + repo.name)
 console.log("Issues totales: " + repo.getTotalIssues())
 console.log(repo.getGeneralInfo())
+
+
 console.log("\n ISSUES")
 console.log(issue)
 console.log(issue.getTitleAndAuthor())
