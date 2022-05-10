@@ -15,6 +15,21 @@ const repo = {
     }
 }
 
+
+const issue = {
+    title: "Requerimiento 1",
+    repositoryNameAssociated: repo.name,
+    status: "close",
+    numberOfComments: 15,
+    labels: 25,
+    author: repo.author,
+    dateCreated: new Date(2018, 15, 24, 10, 33, 30, 0),
+    lastUpdated: new Date()
+
+}
+
 console.log("Nombre del repo:" + repo.name)
 console.log("Issues totales: " + repo.getTotalIssues())
 console.log(repo.getGeneralInfo())
+
+//console.log(issue.dateCreated)
