@@ -40,10 +40,17 @@ const issue = {
 
 const PullRequest = {
     title: "Actualizando metodo getGeneralInfo",
+    author: "skrillheaven",
     branchName: "Master",
     dateCreated: new Date(),
     status: "Accept",
-    repositoryNameAssociated: issue.repositoryNameAssociated
+    repositoryNameAssociated: issue.repositoryNameAssociated,
+    getStatus: function() {
+        return `The status is: ${this.status}`
+    },
+    getTitleAndAuthor: function() {
+        return `The title is: ${this.title}\nThe author is: ${this.author}`
+    }
 }
 
 console.log("Nombre del repo:" + repo.name)
@@ -55,3 +62,9 @@ console.log("\n ISSUES")
 console.log(issue)
 console.log(issue.getTitleAndAuthor())
 console.log(issue.getGeneralInfo())
+
+
+console.log("\nPULL REQUEST ")
+console.log(PullRequest)
+console.log(PullRequest.getTitleAndAuthor())
+console.log(PullRequest.getStatus())
