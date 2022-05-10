@@ -27,7 +27,11 @@ const issue = {
     lastUpdated: new Date(),
 
     getTitleAndAuthor: function() {
-        return `The title is: ${this.title} and the author is: ${this.repositoryNameAssociated}`
+        return `The title is: ${this.title} and the repository is: ${this.repositoryNameAssociated}`
+    },
+
+    getGeneralInfo: function() {
+        return `Author: ${this.author} \nStatus: ${this.status}\nLastUpdate: ${this.lastUpdated}`
     }
 
 
@@ -40,3 +44,4 @@ console.log(repo.getGeneralInfo())
 console.log("\n ISSUES")
 console.log(issue)
 console.log(issue.getTitleAndAuthor())
+console.log(issue.getGeneralInfo())
