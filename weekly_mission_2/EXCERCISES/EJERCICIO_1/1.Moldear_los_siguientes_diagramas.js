@@ -24,12 +24,17 @@ const issue = {
     labels: 25,
     author: repo.author,
     dateCreated: new Date(2018, 15, 24, 10, 33, 30, 0),
-    lastUpdated: new Date()
+    lastUpdated: new Date(),
+
+    getTitleAndAuthor: function() {
+        return console.log("The title is: " + this.title + " and the author is: " + this.repositoryNameAssociated + ".")
+    }
 
 }
 
 console.log("Nombre del repo:" + repo.name)
 console.log("Issues totales: " + repo.getTotalIssues())
 console.log(repo.getGeneralInfo())
-
-//console.log(issue.dateCreated)
+console.log("\n ISSUES")
+console.log(issue)
+console.log(issue.getTitleAndAuthor())
