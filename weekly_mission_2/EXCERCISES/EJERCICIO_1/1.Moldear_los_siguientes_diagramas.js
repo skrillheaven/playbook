@@ -27,8 +27,10 @@ const issue = {
     lastUpdated: new Date(),
 
     getTitleAndAuthor: function() {
-        return console.log("The title is: " + this.title + " and the author is: " + this.repositoryNameAssociated + ".")
+        return `The title is: ${this.title} and the author is: ${this.repositoryNameAssociated}`
     }
+
+
 
 }
 
