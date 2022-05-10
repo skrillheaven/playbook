@@ -22,7 +22,16 @@ const post = {
     }
 }
 
-
+const biografy = {
+    NameUser: user.name,
+    pictureperfil: user.pictureperfil,
+    picturePort: "♂▬!,♂6─¬",
+    friends: 521,
+    posts: 45,
+    getBiografy: function() {
+        return `\n${this.picturePort}\n${this.NameUser}  ${this.pictureperfil} \nFriends ${this.friends}`
+    }
+}
 
 
 
@@ -36,3 +45,8 @@ console.log("\nPOST")
 console.log(post)
 console.log(post.getAuthorandTitle())
 console.log(post.getDate())
+
+
+console.log("\nBIOGRAFY ")
+console.log(biografy)
+console.log(biografy.getBiografy())
