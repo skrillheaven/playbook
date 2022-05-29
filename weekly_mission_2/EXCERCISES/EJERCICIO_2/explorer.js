@@ -65,3 +65,9 @@ explorers.forEach(explorer => console.log("Nombre del explorer : " +
         explorer.name + "\nStack:" +
         explorer.stack))
     //explorers.forEach(explorer => console.log(explorer.stack)) otra manera de hacerlo
+
+console.log("\nImprimiendo lista con MAP")
+const explorer_stack = explorers.map(list_explorer => list_explorer.stack)
+
+console.log("\nStack con map: " +
+    explorer_stack)
