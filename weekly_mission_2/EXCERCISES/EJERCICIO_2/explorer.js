@@ -71,3 +71,8 @@ const explorer_stack = explorers.map(list_explorer => list_explorer.stack)
 
 console.log("\nStack con map: " +
     explorer_stack)
+
+console.log("\nUSO DE FILTER")
+const filter_js = explorers.filter(jslist => jslist.stack.includes("js"))
+console.log("Explorers con stack js: ")
+console.log(filter_js)
