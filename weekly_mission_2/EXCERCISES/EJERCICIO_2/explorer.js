@@ -91,5 +91,10 @@ console.log(reduce_suma)
 
 console.log("\nUso de SOME")
 console.log("Explorers con la propiedad excersicefinished: ")
-const some_finished = explorers.some(propiety => propiety.exercisesFinished || true) //alguno es true
+const some_finished = explorers.some(propiety => propiety.missions.frontend.exercisesFinished || true) //alguno es true
 console.log(some_finished)
+
+console.log("\nUso de EVERY")
+console.log("Validar si hay Explorers con isfinished: ")
+const every_isfinished = explorers.every(validation => validation.missions.onboarding.isFinished || true)
+console.log(every_isfinished)
