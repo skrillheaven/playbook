@@ -88,3 +88,8 @@ console.log("\nUso de REDUCE")
 console.log("Suma de los exercises_completed: ")
 const reduce_suma = explorers.reduce((acc, suma) => acc + suma.exercises_completed, 0)
 console.log(reduce_suma)
+
+console.log("\nUso de SOME")
+console.log("Explorers con la propiedad excersicefinished: ")
+const some_finished = explorers.some(propiety => propiety.exercisesFinished || true) //alguno es true
+console.log(some_finished)
