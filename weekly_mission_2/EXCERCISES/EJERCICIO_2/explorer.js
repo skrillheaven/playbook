@@ -81,3 +81,10 @@ console.log("\nUso de FIND ")
 console.log("Explorers que son de la CDMX: ")
 const find_cdmx = explorers.find(cdmx => cdmx.city == "CDMX")
 console.log(find_cdmx)
+
+
+
+console.log("\nUso de REDUCE")
+console.log("Suma de los exercises_completed: ")
+const reduce_suma = explorers.reduce((acc, suma) => acc + suma.exercises_completed, 0)
+console.log(reduce_suma)
