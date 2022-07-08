@@ -6,7 +6,7 @@ Proyectos desarrollados en la semana 3:
 | Proyecto | Práctica | Link al repo |
 | ------------- |:-------------:| -----:|
 |`my_launchx_app`|1|[Link al repo](https://github.com/skrillheaven/Creaci-n_de_Proyectos_en_JS.git)|
-|`spiderverse`|2|[Link al repo](En espera...)|
-|`twitter`|3, 4, 5|[Link al repo](En espera...))|
+|`spiderverse`|2|[Link al repo](https://github.com/skrillheaven/Test-Driven-Development.git)|
+|`twitter`|3, 4, 5|[Link al repo](https://github.com/skrillheaven/MODELS-TDD.git))|
 |`express_basic`|6|[Link al repo](En espera...)|
 |`express_api`|7|[Link al repo](En espera...)|
