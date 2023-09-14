@@ -80,3 +80,12 @@ Para hacer comparaciones de si o no, existe este tipo de valores, haciendo la co
 // → false
 
 
+### LOGICAL OPERATORS
+JS admite tres tipos de valores BOOLEAN los cuales son: _and, or y not_.
+|Tipo de valor | Representa|Ejemplos|
+|------|-------|-------|
+|&&|**and**|console.log(true && false)false console.log(true && true) true|
+|\|\||**or**|console.log(false \|\| true) true console.log(false \|\| false) false|
+|!|**not**|**!true** == false, **!false** == true|
+|?|**ternary**|console.log(true ? 1 : 2); 1 console.log(false ? 1 : 2); 2|
+
