@@ -93,3 +93,34 @@ JS admite tres tipos de valores BOOLEAN los cuales son: _and, or y not_.
 Valores vacios:
 * null
 * undifined
+
+### AUTOMATIC TYPE CONVERSION
+JS acepta casi cualquier valor como se lo enviemos, como los siguientes ejemplos:
+* console.log(8 * null)
+
+// → 0
+* console.log("5" - 1)
+
+// → 4
+* console.log("5" + 1)
+
+// → 51
+* console.log("five" * 2)
+
+// → NaN
+* console.log(false == 0)
+
+// → true
+
+Cuando JS encuentre que el valor es "incorrecto", automaticamente lo convertira en uno que necesite.
+
+Cuando usamos == y son del mismo tipo de dato el resultado sera true, pero en caso de no ser el mismo tipo, entrara el modo automatico:
+
+* console.log(null == undefined);
+
+// → true
+* console.log(null == 0);
+
+// → false
+
+
