@@ -22,5 +22,39 @@ Ejemplos de operaciones arimeticas
 |(100 + 4) * 11 |Se puede "alterar" el orden de ejecución de la operación con parentesis |
 |Infinity - Infinity = NaN|Cualquier operacion entre infinitos dara un NaN "No es un numero"|
 
+### STRINGS 
+Los strings se pueden representar de la siguiente manera:
 
+* `Down on the sea `
+* "Lie on the ocean"
+* 'Float on the ocean'
+
+Pueden realizar saltos de linea de la siguiente manera:
+* "This is the first line\nAnd this is the second"
+
+Dando como resultado:
+```
+This is the first line
+And this is the second
+```
+Si solo queremos hacer uso de la barra invertida tal cual es:
+* "A newline character is written like \"\n\"."
+
+Para concatenar usamos el operador + :
+* "con" + "cat" + "e" + "nate"
+
+Las cadenas invertidas (`) permite realizar otro tipo de funciones extras:
+*   `half of 100 is ${100 / 2}`
+
+### UNARY OPERATORS
+NO todos los operadores son simbolos, el operador __typeof__ produce un valor cadena que muestra el tipo de valor que es:
+* console.log(typeof 4.5) 
+
+// → number
+* console.log(typeof "x")
+
+// → string
+* console.log(- (10 - 2))
+
+// → -8
 
