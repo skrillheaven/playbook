@@ -89,3 +89,7 @@ JS admite tres tipos de valores BOOLEAN los cuales son: _and, or y not_.
 |!|**not**|**!true** == false, **!false** == true|
 |?|**ternary**|console.log(true ? 1 : 2); 1 console.log(false ? 1 : 2); 2|
 
+### EMPTY VALUES
+Valores vacios:
+* null
+* undifined
