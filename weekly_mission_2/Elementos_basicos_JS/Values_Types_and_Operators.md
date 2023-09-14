@@ -58,3 +58,25 @@ NO todos los operadores son simbolos, el operador __typeof__ produce un valor ca
 
 // → -8
 
+### BOOLEAN VALUES
+Para hacer comparaciones de si o no, existe este tipo de valores, haciendo la comparación entre dos valores siendo veradero o falso entre ellas:
+* console.log(3 > 2)
+
+// → true
+* console.log(3 < 2)
+
+// → false
+* console.log("Aardvark" < "Zoroaster")
+
+// → true
+* console.log("Itchy" != "Scratchy")
+
+// → true
+* console.log("Apple" == "Orange")
+
+// → false
+* console.log(NaN == NaN)
+
+// → false
+
+
