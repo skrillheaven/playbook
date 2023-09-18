@@ -62,5 +62,13 @@ prompt("Enter passcode");
 ```
 El cual muestra una ventana para asignarle un valor.
 
+## The console.log function
 
+Permite escribir argumentos de texto y darlos como salida:
+
+```
+let x = 30;
+console.log("the value of x is", x);
+// → the value of x is 30
+```
 
