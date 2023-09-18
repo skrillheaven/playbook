@@ -51,3 +51,8 @@ Nota importante las variables no deben de iniciar con digitos (numeros), estos p
 
 Hay que tener presente las _variables reservadas_ que son propias del lenguaje, un ejemplo es __let__.
 
+### The environment 
+La coleccion de variables y valores que existen en el mismo tiempo y pueden ser llamadas a eso se le llama _enviroment_.
+
+
+
