@@ -46,4 +46,8 @@ console.log(mood);
 // → dark
 ```
 
+### Binding names
+Nota importante las variables no deben de iniciar con digitos (numeros), estos pueden hacer uso de signos como $ o _ , pero no de otros caracteres especiales.
+
+Hay que tener presente las _variables reservadas_ que son propias del lenguaje, un ejemplo es __let__.
 
