@@ -54,5 +54,13 @@ Hay que tener presente las _variables reservadas_ que son propias del lenguaje, 
 ### The environment 
 La coleccion de variables y valores que existen en el mismo tiempo y pueden ser llamadas a eso se le llama _enviroment_.
 
+## Functions
+Existen valores tipo __function__ , ejecutar ello permite invocar, llamar y aplicarlos como el caso de:
+
+```
+prompt("Enter passcode");
+```
+El cual muestra una ventana para asignarle un valor.
+
 
 
