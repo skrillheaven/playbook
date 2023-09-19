@@ -110,3 +110,52 @@ if (num < 10) {
   console.log("Large");
 }
 ```
+
+### While and do loops
+
+Si requieres repetir un X cantidad de veces un codigo hasta un cierto limite no haras lo siguiente:
+```
+console.log(0);
+console.log(2);
+console.log(4);
+console.log(6);
+console.log(8);
+console.log(10);
+console.log(12);
+```
+
+Para solucionar este tipo de problemas y mas si quieres hacer una repetición a muchos podeces a utilizarm _while_:
+
+```
+let number = 0;
+while (number <= 12) {
+  console.log(number);
+  number = number + 2;
+}
+// → 0
+// → 2
+//   … etcetera
+```
+Tambien podemos hacer uso de un segundo valor incremental dentro del while por ejemplo:
+```
+let result = 1;
+let counter = 0;
+while (counter < 10) {
+  result = result * 2;
+  counter = counter + 1;
+}
+console.log(result);
+// → 1024
+```
+
+
+__Do while__
+Para un bucle _do while_, este ejecutara lo solicitado en la clausula _do_ y dejara de hacerlo hasta que cumpla con la condición del _while_
+```
+let yourName;
+do {
+  yourName = prompt("Who are you?");
+} while (!yourName);
+console.log(yourName);
+
+```
