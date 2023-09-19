@@ -72,3 +72,41 @@ console.log("the value of x is", x);
 // → the value of x is 30
 ```
 
+### CONDITIONAL EXECUTION
+
+Condicionales como el caso de if , el cual dependiendo de las condiciones solicitadas el se ejecutara o no 
+Estructura de un condicional __if__
+
+```
+let theNumber = Number(prompt("Pick a number"));
+if (!Number.isNaN(theNumber)) {
+  console.log("Your number is the square root of " +
+              theNumber * theNumber);
+}
+```
+NOTA: Si algun valor de la condicion es NaN este regresara un _TRUE_
+
+Estrutura del __else__:
+```
+let theNumber = Number(prompt("Pick a number"));
+if (!Number.isNaN(theNumber)) {
+  console.log("Your number is the square root of " +
+              theNumber * theNumber);
+} else {
+  console.log("Hey. Why didn't you give me a number?");
+}
+```
+
+**ELSE IF**:
+
+```
+let num = Number(prompt("Pick a number"));
+
+if (num < 10) {
+  console.log("Small");
+} else if (num < 100) {
+  console.log("Medium");
+} else {
+  console.log("Large");
+}
+```
