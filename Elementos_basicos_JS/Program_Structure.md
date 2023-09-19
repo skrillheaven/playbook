@@ -183,3 +183,16 @@ console.log(result);
 // → 1024
 ```
 
+### Breaking Out of a Loop
+
+Cuando una condicion produce _false_ no necesariamente termina el bucle. Para ello exite _break_.
+
+```
+for (let current = 20; ; current = current + 1) {
+  if (current % 7 == 0) {
+    console.log(current);
+    break;
+  }
+}
+// → 21
+```
