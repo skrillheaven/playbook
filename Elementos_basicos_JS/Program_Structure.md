@@ -196,3 +196,22 @@ for (let current = 20; ; current = current + 1) {
 }
 // → 21
 ```
+### Dispatching on a value with switch
+Para tener un acción especifico de alguna condición en particular y evitar una linea de codigos llenas de _if_ podemos hacer uso de _switch_:
+```
+switch (prompt("What is the weather like?")) {
+  case "rainy":
+    console.log("Remember to bring an umbrella.");
+    break;
+  case "sunny":
+    console.log("Dress lightly.");
+  case "cloudy":
+    console.log("Go outside.");
+    break;
+  default:
+    console.log("Unknown weather type!");
+    break;
+}
+```
+Podemos agregar la cantidad de casos que sean necesarios.
+
